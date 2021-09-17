@@ -1,0 +1,71 @@
+URxvt.font: xft:Cica:style=Regular:size=11:antialias=true, xft:Iosevka Nerd Font Mono:size=14
+URxvt.depth: 32
+!URxvt.color0:      [90]#333333
+!URxvt.color1:      [90]#8c4665
+!URxvt.color2:      [90]#287373
+!URxvt.color3:      [90]#7c7c99
+!URxvt.color4:      [90]#395573
+!URxvt.color5:      [90]#5e468c
+!URxvt.color6:      [90]#31658c
+!URxvt.color7:      [90]#899ca1
+!URxvt.color8:      [90]#3d3d3d
+!URxvt.color9:      [90]#bf4d80
+!URxvt.color10:     [90]#53a6a6
+!URxvt.color11:     [90]#9e9ecb
+!URxvt.color12:     [90]#477ab3
+!URxvt.color13:     [90]#7e62b3
+!URxvt.color14:     [90]#6096f3
+!URxvt.color15:     [90]#c0c0c0
+!URxvt.foreground:  [90]#c0c0c0
+!URxvt.background:  [90]#333333
+URxvt.colorIT:     [90]#8ec07c
+URxvt.colorBD:     [90]#fe8019
+URxvt.colorUL:     [90]#477ab3
+URxvt.scrollColor: [90]#504945
+
+URxvt.geometry:             96x32
+URxvt.scrollBar:            false
+URxvt.scrollstyle:          plain
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      true
+URxvt.pointerBlank:         true
+URxvt.saveLines:            3000
+
+
+! special
+*.foreground:   #d8c5c0
+*.background:   #231e1f
+URxvt.background:   [90]#231e1f
+*.cursorColor:  #d8c5c0
+
+! black
+*.color0:       #231e1f
+*.color8:       #231e1f
+
+! red
+*.color1:       #f84157
+*.color9:       #f84157
+
+! green
+*.color2:       #f14f51
+*.color10:      #f14f51
+
+! yellow
+*.color3:       #ec262a
+*.color11:      #ec262a
+
+! blue
+*.color4:       #7ea78d
+*.color12:      #7ea78d
+
+! magenta
+*.color5:       #379c63
+*.color13:      #379c63
+
+! cyan
+*.color6:       #007973
+*.color14:      #007973
+
+! white
+*.color7:       #d8c5c0
+*.color15:      #d8c5c0
