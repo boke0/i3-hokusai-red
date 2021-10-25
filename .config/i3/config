@@ -58,7 +58,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show window
+bindsym $mod+d exec --no-startup-id bash -c "rofi -show window -run-command \"/bin/bash -i -c '{cmd}'\""
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -214,7 +214,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+set $mode_system l: lock / e: logout / s: suspend / h: hibernate / r: reboot / S: shutdown
 
 mode "$mode_system" {
     bindsym l exec --no-startup-id lock, mode "default"
